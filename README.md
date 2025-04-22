@@ -175,7 +175,7 @@ This project was built under the mentorship of **Lecturer Dawei Wen** at Wuhan I
 
 ```markdown
 ### 📝 Data Flow Diagram
-![Data Flow Diagram](https://raw.githubusercontent.com/AlexChirwa/Development-of-a-Comprehensive-Library-Management-System-based-on-bootstrap/refs/heads/main/screenshots/Data-flow-diagram-level-0.png)
+![Data Flow Diagram](https://raw.githubusercontent.com/AlexChirwa/Development-of-a-Comprehensive-Library-Management-System-based-on-bootstrap/main/screenshots/Data-flow-diagram-level-0.png)
 
 ### 📝 Data Flow Diagram
 ![Data Flow Diagram](screenshots/Data-flow-diagram-level-1.png)
