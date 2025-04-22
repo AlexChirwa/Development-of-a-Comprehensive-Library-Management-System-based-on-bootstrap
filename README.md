@@ -177,7 +177,7 @@ You can include your screenshots by placing them in your GitHub repository’s f
 
 ```markdown
 ### 📝 Data Flow Diagram
-[![Data Flow Diagram](screenshots/Data-flow-diagram-level-0.png)
+![Data Flow Diagram](screenshots/Data-flow-diagram-level-0.png)
 
 ### 📝 Data Flow Diagram
 ![Data Flow Diagram](screenshots/Data-flow-diagram-level-1.png)
