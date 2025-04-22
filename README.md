@@ -173,11 +173,9 @@ This project was built under the mentorship of **Lecturer Dawei Wen** at Wuhan I
 
 ## 📸 Screenshots
 
-You can include your screenshots by placing them in your GitHub repository’s folder (e.g., `/screenshots`) and embedding them like this:
-
 ```markdown
 ### 📝 Data Flow Diagram
-![Data Flow Diagram](/screenshots/Data-flow-diagram-level-0.png)
+![Data Flow Diagram](screenshots/Data-flow-diagram-level-0.png)
 
 ### 📝 Data Flow Diagram
 ![Data Flow Diagram](screenshots/Data-flow-diagram-level-1.png)
