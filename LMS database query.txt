@@ -1,0 +1,224 @@
+CREATE TABLE `admins` (
+  `id` int(11) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `password` varchar(250) NOT NULL,
+  `mobile` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `admins`
+--
+
+INSERT INTO `admins` (`id`, `name`, `email`, `password`, `mobile`) VALUES
+(1, 'admin', 'admin@gmail.com', 'admin@1234', 0966220121);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `authors`
+--
+
+CREATE TABLE `authors` (
+  `author_id` int(11) NOT NULL,
+  `author_name` varchar(250) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `authors`
+--
+
+INSERT INTO `authors` (`author_id`, `author_name`) VALUES
+(102, 'Simon Sinek'),
+(103, 'James Clear'),
+(104, 'Curtis 50 Cent Jackson');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `books`
+--
+
+CREATE TABLE `books` (
+  `book_id` int(11) NOT NULL,
+  `book_name` varchar(250) NOT NULL,
+  `author_id` int(11) NOT NULL,
+  `cat_id` int(11) NOT NULL,
+  `book_no` int(11) NOT NULL,
+  `book_price` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `books`
+--
+
+INSERT INTO `books` (`book_id`, `book_name`, `author_id`, `cat_id`, `book_no`, `book_price`) VALUES
+(1, 'Start With Why', 101, 1, 4518, 270),
+(2, 'Atomic Habits', 102, 2, 6541, 300);
+(3, 'Deep Work', 103, 2, 8712, 320),
+(4, 'The Lean Startup', 104, 1, 9821, 350),
+(5, 'The Alchemist', 105, 5, 7623, 200),
+(6, 'Grit', 106, 4, 6610, 280),
+(7, 'Zero to One', 102, 1, 5672, 330),
+(8, 'Thinking, Fast and Slow', 106, 2, 3325, 400);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `category`
+--
+
+CREATE TABLE `category` (
+  `cat_id` int(11) NOT NULL,
+  `cat_name` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `category`
+--
+
+INSERT INTO `category` (`cat_id`, `cat_name`) VALUES
+(1, 'Business'),
+(2, 'self-help'),
+(4, 'Motivational'),
+(5, 'Story');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `issued_books`
+--
+
+CREATE TABLE `issued_books` (
+  `s_no` int(11) NOT NULL,
+  `book_no` int(11) NOT NULL,
+  `book_name` varchar(200) NOT NULL,
+  `book_author` varchar(200) NOT NULL,
+  `student_id` int(11) NOT NULL,
+  `status` int(11) NOT NULL,
+  `issue_date` longtext NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `issued_books`
+--
+
+INSERT INTO `issued_books` (`s_no`, `book_no`, `book_name`, `book_author`, `student_id`, `status`, `issue_date`) VALUES
+(1, 6541, 'Start With Why', 'Simon Sinek', 4, 1, '0000-00-00 00:00:00');
+(2, 8712, 'Deep Work', 'James Clear', 2, 1, '2024-11-10 14:15:00'),
+(3, 9821, 'The Lean Startup', 'Curtis 50 Cent Jackson', 3, 1, '2024-11-11 10:00:00'),
+(4, 7623, 'The Alchemist', 'Paulo Coelho', 4, 1, '2024-11-12 16:45:00'),
+(5, 6610, 'Grit', 'Angela Duckworth', 5, 1, '2024-11-13 12:30:00'),
+(6, 5672, 'Zero to One', 'James Clear', 6, 1, '2024-11-14 09:20:00');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL,
+  `mobile` int(10) NOT NULL,
+  `address` varchar(250) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `name`, `email`, `password`, `mobile`, `address`) VALUES
+(1, 'user', 'user@gmail.com', 'user@1234', 0965220748, 'Kitwe, Nkana East, 23rd avenue');
+(2, 'Alice M.', 'alice@example.com', 'alice@123', 0965220701, 'Lusaka'),
+(3, 'Brian T.', 'brian@example.com', 'brian@123', 0965220702, 'Ndola'),
+(4, 'Chipo K.', 'chipo@example.com', 'chipo@123', 0965220703, 'Kitwe'),
+(5, 'Daniel Z.', 'daniel@example.com', 'daniel@123', 0965220704, 'Livingstone'),
+(6, 'Eve B.', 'eve@example.com', 'eve@123', 0965220705, 'Solwezi');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `admins`
+--
+ALTER TABLE `admins`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `authors`
+--
+ALTER TABLE `authors`
+  ADD PRIMARY KEY (`author_id`);
+
+--
+-- Indexes for table `books`
+--
+ALTER TABLE `books`
+  ADD PRIMARY KEY (`book_id`);
+
+--
+-- Indexes for table `category`
+--
+ALTER TABLE `category`
+  ADD PRIMARY KEY (`cat_id`);
+
+--
+-- Indexes for table `issued_books`
+--
+ALTER TABLE `issued_books`
+  ADD PRIMARY KEY (`s_no`);
+
+--
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `admins`
+--
+ALTER TABLE `admins`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT for table `authors`
+--
+ALTER TABLE `authors`
+  MODIFY `author_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=107;
+
+--
+-- AUTO_INCREMENT for table `books`
+--
+ALTER TABLE `books`
+  MODIFY `book_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+
+--
+-- AUTO_INCREMENT for table `category`
+--
+ALTER TABLE `category`
+  MODIFY `cat_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
+--
+-- AUTO_INCREMENT for table `issued_books`
+--
+ALTER TABLE `issued_books`
+  MODIFY `s_no` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+-- COMMIT;
+
+-- /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+-- /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+-- /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
