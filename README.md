@@ -1,4 +1,4 @@
-`# Development-of-a-Comprehensive-Library-Management-System-based-on-bootstrap`
+# Development-of-a-Comprehensive-Library-Management-System-based-on-bootstrap
 
 # 📚 Library Management System (LMS)
 
@@ -166,7 +166,7 @@ Done! You’re live on localhost 🎉
 
 👋 Hi, I’m **Alex Chirwa** – a Computer Science graduate passionate about networking, cybersecurity, and building tools that actually solve problems.
 
-This project was built under the mentorship of **Lecturer Dawei Wen** at Wuhan Institute of Technology, with feedback from friends, developers, and librarians in Zambia.
+This project was built under the mentorship of **Lecturer Dawei Wen** at Wuhan Institute of Technology, with feedback from friends, class mates, web developers, and librarians in Zambia.
 
 ---
 
