@@ -177,7 +177,7 @@ This project was built under the mentorship of **Lecturer Dawei Wen** at Wuhan I
 ![Data Flow Diagram](https://raw.githubusercontent.com/AlexChirwa/Development-of-a-Comprehensive-Library-Management-System-based-on-bootstrap/main/screenshots/Data-flow-diagram-level-0.png)
 
 ### 📝 Data Flow Diagram Level 1
-![Data Flow Diagram](screenshots/Data-flow-diagram-level-1.png)
+![Data Flow Diagram](https://raw.githubusercontent.com/AlexChirwa/Development-of-a-Comprehensive-Library-Management-System-based-on-bootstrap/main/screenshots/Data-Flow-diagram-level-1.png)
 
 ### 📝 Operational Flow Chat
 ![Operational Flow Chat](screenshots/Operational-Flow-Chat.png)
@@ -206,73 +206,92 @@ This project was built under the mentorship of **Lecturer Dawei Wen** at Wuhan I
 ### 👩‍💻 User Activity Diagram
 ![User Activity Diagram](screenshots/User-Activity-Diagram.png)
 
-### 📖 Book List View
-![Book List](screenshots/book-list.png)
+### 🪪 User Login Form
+![User Login Form](screenshots/User-Login-Form.png)
 
-### 📋 Admin Dashboard
-![Admin Dashboard](screenshots/admin-dashboard.png)
+### 📋🪪 User Registration form
+![User Registration form](screenshots/User-Registration-form.png)
 
-### 🔐 Login Page
-![Login Page](screenshots/login-page.png)
+### 📋🪪 User Registration form
+![User Registration form](screenshots/User-Registration-form2.png)
 
-### 📖 Book List View
-![Book List](screenshots/book-list.png)
+### ✅ slash screen after a successful login registration
+![slash screen after a successful login registration](screenshots/slash-screen-after-a-successful-login-registration.png)
 
-### 📋 Admin Dashboard
-![Admin Dashboard](screenshots/admin-dashboard.png)
+### ❌ Please check your credentials user login page error
+![Please check your credentials user login page error](screenshots/Please-check-your-credentials-user-login-page-error.png)
 
-### 🔐 Login Page
-![Login Page](screenshots/login-page.png)
+### 📋 User dashboard of the Library Management System
+![User dashboard of the Library Management System](screenshots/User-dashboard-of-the-Library-Management-System.png)
 
-### 📖 Book List View
-![Book List](screenshots/book-list.png)
+### 📚 Registered books under user dashboard
+![Registered books under user dashboard](screenshots/Registered-books-under-user-dashboard.png)
 
-### 📋 Admin Dashboard
-![Admin Dashboard](screenshots/admin-dashboard.png)
+### 📖 Borrowed books under the user dashboard
+![Borrowed books the user dashboard](screenshots/Borrowed-books-the-user-dashboard.png)
 
-### 🔐 Login Page
-![Login Page](screenshots/login-page.png)
+### 🔏 Student Profile Details under the user dashboard
+![Student Profile Details under user dashboard](screenshots/Student-Profile-Details-under-user-dashboard.png)
 
-### 📖 Book List View
-![Book List](screenshots/book-list.png)
+### ☺️ Edit profile for the user
+![Edit profile for the user](screenshots/Edit-profile-for-the-user.png)
 
-### 📋 Admin Dashboard
-![Admin Dashboard](screenshots/admin-dashboard.png)
+### 🔒🔑 Change user password for the users in the library management system
+![Change user password for the users in the library management system](screenshots/Change-user-password-for-the-users-in-the-library-management-system.png)
 
-### 🔐 Login Page
-![Login Page](screenshots/login-page.png)
+### ✅ splash screen message after making changes with user password
+![splash screen message after making changes with user password](screenshots/splash-screen-message-after-making-changes-with-user-password.png)
 
-### 📖 Book List View
-![Book List](screenshots/book-list.png)
+### 🪪 Admin Login page
+![Admin Login page](screenshots/Admin-Login-page.png)
 
-### 📋 Admin Dashboard
-![Admin Dashboard](screenshots/admin-dashboard.png)
+### ❌ Please check your credentials admin login page error
+![Please check your credentials admin login page error](screenshots/Please-check-your-credentials-admin-login-page-error.png)
 
-### 🔐 Login Page
-![Login Page](screenshots/login-page.png)
+### 📋 Admin dashboard model
+![Admin dashboard model](screenshots/Admin-dashboard-model.png)
 
-### 📖 Book List View
-![Book List](screenshots/book-list.png)
+### 📋 Admin View profile page
+![Admin View profile page](screenshots/Admin-View-profile-page.png)
 
-### 📋 Admin Dashboard
-![Admin Dashboard](screenshots/admin-dashboard.png)
+### 🔒🔑 Edit Admin profile page
+![Edit Admin profile page](screenshots/Edit-Admin-profile-page.png)
 
-### 🔐 Login Page
-![Login Page](screenshots/login-page.png)
+### 🔒🔑 Admin Change passwords page
+![Admin Change passwords page](screenshots/Admin-Change-passwords-page.png)
 
-### 📖 Book List View
-![Book List](screenshots/book-list.png)
+### 📝 Add a new author page
+![Add a new author page](screenshots/Add-a-new-author-page.png)
 
-### 📋 Admin Dashboard
-![Admin Dashboard](screenshots/admin-dashboard.png)
+### 📝 Add a new category page
+![Add a new category page](screenshots/Add-a-new-category-page.png)
 
-### 🔐 Login Page
-![Login Page](screenshots/login-page.png)
+### 📝 Add new books page
+![Add new books page](screenshots/Add-new-books-page.png)
 
-### 📖 Book List View
-![Book List](screenshots/book-list.png)
+### 📝✅ Manage Authors page
+![Manage Authors page](screenshots/Manage-Authors-page.png)
 
+### 📝✅ Manage Categories page
+![Manage Categories page](screenshots/Manage-Categories-page.png)
 
+### 📝✅ Manage books page
+![Manage books page](screenshots/Manage-books-page.png)
+
+### 📝✅ Issue books page
+![Issue books page](screenshots/Issue-books-page.png)
+
+### 📝✅ Issued books page
+![Issued books page](screenshots/Issued-books-page.png)
+
+### 📝✅ Registered Users page
+![Registered Users page](screenshots/Registered-Users-page.png)
+
+### 📝✅ Registered authors page
+![Registered authors page](screenshots/Registered-authors-page.png)
+
+### 📝✅ Registered book categories page
+![Registered book categories](screenshots/Registered-book-categories.png)
 
 
 
