@@ -176,38 +176,38 @@ This project was built under the mentorship of **Lecturer Dawei Wen** at Wuhan I
 You can include your screenshots by placing them in your GitHub repository’s folder (e.g., `/screenshots`) and embedding them like this:
 
 ```markdown
-### 📋 Admin Dashboard
-![Admin Dashboard](screenshots/admin-dashboard.png)
+### 📝 Data Flow Diagram
+![Data Flow Diagram](screenshots/Data-flow-diagram-level-0.png)
 
-### 🔐 Login Page
-![Login Page](screenshots/login-page.png)
+### 📝 Data Flow Diagram
+![Data Flow Diagram](screenshots/Data-flow-diagram-level-1.png)
 
-### 📖 Book List View
-![Book List](screenshots/book-list.png)
+### 📝 Operational Flow Chat
+![Operational Flow Chat](screenshots/Operational-Flow-Chat.png)
 
-### 📋 Admin Dashboard
-![Admin Dashboard](screenshots/admin-dashboard.png)
+### 📝 System flow Chart
+![System flow Chart](screenshots/System-flow-Chart.png)
 
-### 🔐 Login Page
-![Login Page](screenshots/login-page.png)
+### 👩‍💻 Use case diagram
+![Use case diagram](screenshots/Use-case-diagram.png)
 
-### 📖 Book List View
-![Book List](screenshots/book-list.png)
+### 📖 Overall structure of the Library Management System
+![Overall structure of the Library Management System](screenshots/Overall-structure-of-the-Library-Management-System.png)
 
-### 📋 Admin Dashboard
-![Admin Dashboard](screenshots/admin-dashboard.png)
+### 📋 schema design diagram of the library management system
+![schema design diagram of the library management system](screenshots/schema-design-diagram-of-the-library-management-system.png)
 
-### 🔐 Login Page
-![Login Page](screenshots/login-page.png)
+### 🪢 Entity relationship Diagram
+![Entity relationship Diagram](screenshots/Entity-relationship-Diagram.png)
 
-### 📖 Book List View
-![Book List](screenshots/book-list.png)
+### 📖 Class diagram of the Library Management System
+![Class diagram of the Library Management System](screenshots/Class-diagram-of-the-Library-Management-System.png)
 
-### 📋 Admin Dashboard
-![Admin Dashboard](screenshots/admin-dashboard.png)
+### 📋 Admin Activity Diagram
+![Admin Activity Diagram](screenshots/Admin-Activity-Diagram.png)
 
-### 🔐 Login Page
-![Login Page](screenshots/login-page.png)
+### 👩‍💻 User Activity Diagram
+![User Activity Diagram](screenshots/User-Activity-Diagram.png)
 
 ### 📖 Book List View
 ![Book List](screenshots/book-list.png)
